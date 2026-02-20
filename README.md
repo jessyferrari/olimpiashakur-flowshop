@@ -1,13 +1,15 @@
-# Olimpia Shakur · Flow Shop (mini-app)
+# Olimpia Shakur • Afiliados Tech (Mini-app)
 
-Projeto Next.js (App Router) pronto para deploy na Vercel.
+## Rodar localmente
+1. Instale dependências:
+   - `npm install`
+2. Rodar:
+   - `npm run dev`
 
-## Onde editar
-- Links + avisos: `data/links.json`
-- Logo: `public/logo.png`
+## Logos
+- Placeholders em `/public/brands/*.svg`
+- Substitua por PNG/SVG oficiais se desejar (mesmo nome de arquivo) sem mudar código.
 
-## Rodar local
-```bash
-npm install
-npm run dev
-```
+## Links
+- Estão em `src/data/affiliateLinks.ts`
+- Duplicados são removidos na construção do dataset (já deduplicado).
